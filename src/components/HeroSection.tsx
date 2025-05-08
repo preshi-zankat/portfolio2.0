@@ -5,6 +5,7 @@ import SidebarMenu from "./SidebarMenu";
 
 const montserrat = Montserrat({
   subsets: ["latin"],
+  preload: true, 
 });
 
 function HeroSection() {

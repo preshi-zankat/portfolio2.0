@@ -1,4 +1,4 @@
-import Image from "next/image";
+// import Image from "next/image";
 import { Roboto } from "next/font/google";
 import { Cardo } from "next/font/google";
 import { Montserrat } from "next/font/google";
@@ -9,15 +9,18 @@ import { FaCropAlt, FaDesktop, FaCode } from "react-icons/fa";
 const roboto = Roboto({
   weight: ["300", "700"],
   subsets: ["latin"],
+  preload: true, 
 });
 
 const cardo = Cardo({
   weight: ["400"],
   subsets: ["latin"],
+  preload: true, 
 });
 
 const montserrat = Montserrat({
   subsets: ["latin"],
+  preload: true, 
 });
 
 export default function AboutMe() {
@@ -58,7 +61,7 @@ export default function AboutMe() {
       <p
         className={`text-gray-300 max-w-xl text-sm sm:text-base leading-relaxed ${roboto.className}`}
       >
-        I'm Preshita, a passionate full stack web developer skilled in the MERN
+        I&apos;m Preshita, a passionate full stack web developer skilled in the MERN
         stack. I love building responsive, user-friendly websites and turning
         creative ideas into functional web apps.
       </p>

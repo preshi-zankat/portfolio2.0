@@ -7,11 +7,13 @@ import ContactInfo from './ContactInfo';
 const montserrat = Montserrat({
   weight: ["500",],
   subsets: ["latin"],
+  preload: true, 
 });
 
 const cardo = Cardo({
   weight: ["400"],
   subsets: ["latin"],
+  preload: true, 
 });
 
 export default function Contact() {

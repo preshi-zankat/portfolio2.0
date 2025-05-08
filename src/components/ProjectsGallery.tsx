@@ -10,11 +10,13 @@ import Link from "next/link";
 const montserrat = Montserrat({
   subsets: ["latin"],
   weight: ["500"],
+  preload: true, 
 });
 
 const roboto = Roboto({
   subsets: ["latin"],
   weight: ["400"],
+  preload: true, 
 });
 
 export default function ProjectsGallery() {

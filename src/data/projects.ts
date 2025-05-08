@@ -1,4 +1,4 @@
-import { link } from "fs";
+// import { link } from "fs";
 
 export const categories = ["All", "Journal", "Travel", "Music-School"];
 

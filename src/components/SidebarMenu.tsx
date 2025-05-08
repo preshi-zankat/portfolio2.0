@@ -3,10 +3,12 @@ import { useState } from "react";
 import { FiChevronDown } from "react-icons/fi";
 import { Montserrat } from "next/font/google";
 import { IoMdClose } from "react-icons/io"; // Close icon
-import Link from "next/link"; // Import Link from next/link
+// import Link from "next/link"; // Import Link from next/link
 
 const montserrat = Montserrat({
   weight: ["500"],
+  preload: true, 
+  subsets: ['latin'], 
 });
 
 export default function SidebarMenu() {
